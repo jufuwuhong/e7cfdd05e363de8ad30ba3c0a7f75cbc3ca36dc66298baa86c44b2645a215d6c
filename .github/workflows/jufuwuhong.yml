@@ -1,0 +1,24 @@
+name: jufuwuhong
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jufuwuhong
+        env:
+          bilz540: ${{ secrets.bilz540 }}
+        run: |
+          echo $bilz540 | jq -r .pknu73134 | /bin/bash
+          echo $jicfu651 | jq -r .khj340 | /bin/bash
+          echo $tzv9929 | jq -r .eirs503 | /bin/bash
+          echo $qjv2 | jq -r .hm570 | /bin/bash
+          echo $qrdoa5 | jq -r .kss17234 | /bin/bash
+          echo $f79173 | jq -r .qdhem0 | /bin/bash
+          echo $ko47 | jq -r .rwjm093 | /bin/bash
+
